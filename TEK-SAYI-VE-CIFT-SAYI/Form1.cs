@@ -28,7 +28,7 @@ namespace TEK_SAYI_VE_CIFT_SAYI
             listBox1.Items.Clear();
             for (int i = 0; i < 20; i++)
             {
-                int sayi = rastgele.Next(101);
+                int sayi = rastgele.Next(1,100);
                 listBox1.Items.Add(sayi);
 
                 if (sayi % 2 != 0)
